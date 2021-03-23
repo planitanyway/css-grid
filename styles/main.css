@@ -38,6 +38,9 @@
     grid-column-start: 1;
     grid-column-end: 3;
     color: black;
+    background-color: white;
+    border: 2px solid rgb(92, 48, 92);
+    border-radius: 5px;
     
 }
 
@@ -45,5 +48,5 @@
     background-color:rgb(60, 16, 182);
     justify-content: left;
     color: white;
-    
+
 }
