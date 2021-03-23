@@ -1,0 +1,49 @@
+.page-wrapper {
+    display: grid;
+    background-color: rgb(60, 16, 182);
+    align-content: center;
+    color: white;
+    
+}
+
+.page-wrapper element {
+    grid-template-rows: repeat(4, 70px 1fr auto 50px);
+    background-color:rgb(50, 38, 83);
+    color: white;
+    
+}
+
+.content-wrapper {
+    grid-template-columns: 150px 1fr;
+    background-color:rgb(153, 110, 202);
+    align-content: center;
+    color: white;
+
+}
+
+.content-area {
+    align-content: left;
+    color: white;
+
+}
+
+.featured-items {
+    grid-template-columns: repeat(2, 1fr, 10px);
+    background-color: rgb(92, 48, 92);
+    color: white;
+
+}
+
+.feature-one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: black;
+    
+}
+
+.footer {
+    background-color:rgb(60, 16, 182);
+    justify-content: left;
+    color: white;
+    
+}
